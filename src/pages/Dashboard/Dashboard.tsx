@@ -100,7 +100,7 @@ export default function Dashboard() {
                 fill="#82ca9d"
                 label
               >
-                {pieChartData.map((entry, index) => (
+                {pieChartData.map((_, index) => (
                   <Cell key={`cell-${index}`} fill={index === 1 ? "#ff6347" : "#4caf50"} />
                 ))}
               </Pie>
