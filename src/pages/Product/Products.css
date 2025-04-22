@@ -1,0 +1,85 @@
+/* Products.css */
+.product-card {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  .product-card .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .product-card .card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .product-card .card-subtitle {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 1rem;
+  }
+  
+  .product-card .card-text {
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+  }
+  
+  .quantity-controls {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .quantity-btn {
+    flex: 1;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-weight: 600;
+    border: 1px solid #e0e0e0;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease;
+    font-size: 1.2rem;
+  }
+  
+  .quantity-btn:hover {
+    background-color: #e9ecef;
+  }
+  
+  .quantity-btn.increase {
+    color: #28a745;
+  }
+  
+  .quantity-btn.decrease {
+    color: #dc3545;
+  }
+  
+  .search-container {
+    margin-bottom: 2rem;
+  }
+  
+  .search-container .form-control {
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    padding: 0.5rem 1rem;
+  }
+  
+  .search-container .form-label {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+  }
